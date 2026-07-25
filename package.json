@@ -1,10 +1,13 @@
 {
   "name": "actions-repo-ops",
-  "version": "1.0.12",
+  "version": "1.0.18",
   "description": "GitHub Action to manage repository operations (create, delete, archive) using standardized configurations via GitHub API",
   "main": "dist/index.js",
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
-    "build": "ncc build src/index.ts -o dist",
+    "build": "tsup",
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
@@ -23,21 +26,21 @@
   "author": "Actions Forge",
   "license": "MIT",
   "dependencies": {
-    "@actions/core": "^1.11.1",
-    "@actions/github": "^6.0.1",
-    "@octokit/rest": "^21.1.1"
+    "@actions/core": "^3.0.1",
+    "@actions/github": "^9.1.1",
+    "@octokit/rest": "^22.0.1"
   },
   "devDependencies": {
     "@types/jest": "^29.5.14",
     "@types/node": "^22.14.1",
     "@typescript-eslint/eslint-plugin": "^8.31.0",
-    "@typescript-eslint/parser": "^8.31.0",
-    "@vercel/ncc": "^0.38.3",
+    "@typescript-eslint/parser": "^8.65.0",
     "eslint": "^8.57.0",
     "istanbul-reports": "^3.1.7",
     "jest": "^29.7.0",
-    "ts-jest": "^29.3.2",
+    "ts-jest": "^29.4.12",
     "ts-node": "^10.9.2",
+    "tsup": "^8.5.1",
     "typescript": "^5.8.3"
   },
   "overrides": {
