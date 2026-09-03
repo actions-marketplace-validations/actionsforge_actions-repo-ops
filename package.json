@@ -1,6 +1,6 @@
 {
   "name": "actions-repo-ops",
-  "version": "1.0.29",
+  "version": "1.0.30",
   "description": "GitHub Action to manage repository operations (create, delete, archive) using standardized configurations via GitHub API",
   "main": "dist/index.js",
   "engines": {
@@ -33,19 +33,19 @@
   "devDependencies": {
     "@eslint/js": "^10.0.1",
     "@types/jest": "^30.0.0",
-    "@types/node": "^26.1.2",
-    "eslint": "^10.8.0",
-    "globals": "^17.8.0",
+    "@types/node": "^26.3.0",
+    "eslint": "^10.9.1",
+    "globals": "^17.11.0",
     "istanbul-reports": "^3.2.0",
     "jest": "^30.4.2",
     "ts-jest": "^29.4.12",
     "ts-node": "^10.9.2",
     "tsup": "^8.5.1",
     "typescript": "^5.9.3",
-    "typescript-eslint": "^8.65.0"
+    "typescript-eslint": "^8.68.0"
   },
   "overrides": {
-    "undici": "^6.27.0",
+    "undici": "^6.28.0",
     "brace-expansion": "^1.1.13",
     "js-yaml": "^4.2.0"
   }
