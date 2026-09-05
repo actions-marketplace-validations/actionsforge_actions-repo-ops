@@ -1,6 +1,6 @@
 {
   "name": "actions-repo-ops",
-  "version": "1.0.30",
+  "version": "1.0.31",
   "description": "GitHub Action to manage repository operations (create, delete, archive) using standardized configurations via GitHub API",
   "main": "dist/index.js",
   "engines": {
@@ -47,6 +47,7 @@
   "overrides": {
     "undici": "^6.28.0",
     "brace-expansion": "^1.1.13",
-    "js-yaml": "^4.2.0"
+    "js-yaml": "^4.2.0",
+    "esbuild": "0.28.1"
   }
 }
